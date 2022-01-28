@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>ÐÐ°ÐºÐ¾Ð¹ Ñ Ð¼ÐµÐ½Ñ Ð±ÑÐ°ÑÐ·ÐµÑ? Ð£Ð·Ð½Ð°ÑÑ Ð²ÐµÑÑÐ¸Ñ Ð±ÑÐ°ÑÐ·ÐµÑÐ° | WhatBrowser.ru</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="ÐÑÑ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ Ð¾ Ð±ÑÐ°ÑÐ·ÐµÑÐµ Ð´Ð»Ñ ÑÐ»ÑÐ¶Ð±Ñ Ð¿Ð¾Ð´Ð´ÐµÑÐ¶ÐºÐ¸">
+    <meta name="keywords"
+        content="Ð²ÐµÑÑÐ¸Ñ Ð±ÑÐ°ÑÐ·ÐµÑÐ°, ÑÐ·Ð½Ð°ÑÑ Ð²ÐµÑÑÐ¸Ñ Ð±ÑÐ°ÑÐ·ÐµÑÐ°, ÐºÐ°ÐºÐ°Ñ Ð²ÐµÑÑÐ¸Ñ Ð±ÑÐ°ÑÐ·ÐµÑÐ°, ÐºÐ°ÐºÐ°Ñ Ñ Ð¼ÐµÐ½Ñ Ð¾Ð¿ÐµÑÐ°ÑÐ¸Ð¾Ð½Ð½Ð°Ñ ÑÐ¸ÑÑÐµÐ¼Ð°">
+    <meta property="og:title" content="ÐÐ°ÐºÐ¾Ð¹ Ñ Ð¼ÐµÐ½Ñ Ð±ÑÐ°ÑÐ·ÐµÑ?" />
+    <meta property="og:description"
+        content="Ð¡Ð¾Ð±ÐµÑÐ¸ÑÐµ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ Ð¾ Ð±ÑÐ°ÑÐ·ÐµÑÐµ Ð² Ð¾Ð´Ð¸Ð½ ÐºÐ»Ð¸Ðº Ð¸ Ð¾ÑÐ¿ÑÐ°Ð²ÑÑÐµ ÐµÐµ Ð² ÑÐµÑÐ¿Ð¾Ð´Ð´ÐµÑÐ¶ÐºÑ." />
+    <meta property="og:image" content="img/whatbrowser.png" />
+    <meta property="og:url" content="https://whatbrowser.ru" />
+    <meta property="og:site_name" content="whatbrowser.ru" />
+
+    <link rel="stylesheet" href="dist/website.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" sizes="16x16" type="image/vnd.microsoft.icon" />
+    <link rel="icon" href="img/favicon.png" sizes="16x16" type="image/png" />
+    <noscript>
+        <style>
+            .jsonly {
+                display: none;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a href="/" class="navbar__title">ÐÐ°ÐºÐ¾Ð¹ Ñ Ð¼ÐµÐ½Ñ Ð±ÑÐ°ÑÐ·ÐµÑ?</a>
+        </div>
+    </div>
+    <noscript>
+        <div class="nojs header">
+            <div class="container">
+                <h1>Ð£Â Ð²Ð°Ñ Ð²ÑÐºÐ»ÑÑÐµÐ½ JavaScript :-[</h2>
+                    <h4>ÐÐ¾Ð¶Ð°Ð»ÑÐ¹ÑÑÐ°, Ð²ÐºÐ»ÑÑÐ¸ÑÐµ ÐµÐ³Ð¾ Ð²Â ÑÐ²Ð¾Ð¹ÑÑÐ²Ð°Ñ Ð±ÑÐ°ÑÐ·ÐµÑÐ° Ð¸Â Ð¾Ð±Ð½Ð¾Ð²Ð¸ÑÐµ ÑÑÑÐ°Ð½Ð¸ÑÑ.</h4>
+            </div>
+        </div>
+    </noscript>
+
+    <div id="message" class="jsonly header">
+        <div class="container">
+            <h2>Ð¡Ð¾Ð±Ð¸ÑÐ°Ñ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ...</h2>
+        </div>
+    </div>
+
+    <div id="result" style="display: none;">
+        <div id="header" class="header">
+            <div class="container">
+                <h2 class="header__title" id="header-msg">Ð£Â Ð²Ð°Ñ {browser} Ð½Ð°Â {os}</h2>
+                <div id="info-link">
+                    <h4 class="header__action">ÐÑÐ¿ÑÐ°Ð²ÑÑÐµ Ð²Â ÑÐ»ÑÐ¶Ð±Ñ Ð¿Ð¾Ð´Ð´ÐµÑÐ¶ÐºÐ¸ ÑÑÑÂ ÑÑÑÐ»ÐºÑ:</h4>
+                    <div id="info-link-copy" class="info-link">
+                        <input id="copy-value" class="flat-input link-text" type="text" readonly="readonly">
+                        <button class="link-button" data-clipboard-target="#copy-value">ÐÐ¾Ð¿Ð¸ÑÐ¾Ð²Ð°ÑÑ</button>
+                        <span id="copy-status" class="copy-status"></span>
+                    </div>
+                </div>
+                <div id="info-mail" style="display: none;">
+                    <h4 class="header__action">ÐÑÐ¿ÑÐ°Ð²ÑÑÐµ Ð²Â ÑÐ»ÑÐ¶Ð±Ñ Ð¿Ð¾Ð´Ð´ÐµÑÐ¶ÐºÐ¸ ÑÐ¾Ð±ÑÐ°Ð½Ð½ÑÑ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ:</h4>
+                    <div class="info-link">
+                        <a href="#" class="link-button">ÐÑÐ¿ÑÐ°Ð²Ð¸ÑÑ Ð¿Ð¾Â email</a>
+                    </div>
+                </div>
+                <div id="info-show" class="info-link" style="display: none;">
+                    <h4 class="header__action">Ð¡ÐºÐ¾Ð¿Ð¸ÑÑÐ¹ÑÐµ ÑÐµÐºÑÑ Ð½Ð°Â ÑÑÐ¾Ð¹ ÑÑÑÐ°Ð½Ð¸ÑÐµ Ð¸Â Ð¾ÑÐ¿ÑÐ°Ð²ÑÑÐµ Ð²Â ÑÐ»ÑÐ¶Ð±Ñ Ð¿Ð¾Ð´Ð´ÐµÑÐ¶ÐºÐ¸.</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="details-wrapper">
+                <h3 id="details-msg">Ð¢ÐµÑÐ½Ð¸ÑÐµÑÐºÐ¸Ðµ Ð´ÐµÑÐ°Ð»Ð¸</h3>
+                <div class="details">
+                    <table id="details-table" class="details-table">
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="cfx footer">
+                <div class="footer_item"><a href="https://tendence.ru/tools/whois">ÐÐ°ÐºÐ¾Ð¹ Ñ Ð¼ÐµÐ½Ñ IP?</a></div>
+                <div class="footer_item">
+                    <a class="footer_menu-item" href="about.html">ÐÂ Ð¿ÑÐ¾ÐµÐºÑÐµ</a>
+                    <a class="footer_menu-item" href="ua.html">ÐÐ°ÑÑÐµÑ ÑÐ·ÐµÑ-Ð°Ð³ÐµÐ½ÑÐ°</a>
+                    <a class="footer_menu-item" rel="nofollow" href="https://github.com/algenon/whatbrowser">Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="lib/jquery-3.4.1.min.js"></script> -->
+    <script src="dist/all.min.js"></script>
+</body>
+
+</html>
