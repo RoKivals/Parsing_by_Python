@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import fake_useragent
 
 # Время запрещённых приёмов (создание фейкового user-agent'а)
-# На каждом вызове он разный
+# Можем получить агента для любого браузера
 user = fake_useragent.UserAgent().random
 header = {"user-agent": user}
 # Мы создали переменную, которая хранит в себе заголовки запроса
